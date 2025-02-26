@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;    
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+}
+
+.navIcon {
+    width: 1.5vw;
+}
+
+.sideBar {
+    font-weight: 500;
+    font-size: 0.9rem;
+    padding-right: 2vw;
+    height: 100vh;
+    width: 35vh;
+    background-color: rgb(10, 143, 205);
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainNav {
+    margin-top: 5vh;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    row-gap: 2vh;
+    place-items: center;
+}
+
+.downNav {
+    margin-top: 10vh;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    row-gap: 2vh;
+    place-items: center;
+}
+
+.navIcon {
+    filter: invert(100%) sepia(49%) saturate(3151%) hue-rotate(178deg) brightness(111%) contrast(101%);
+}
+
+.navItem {
+    color:#f0f8ff;
+    justify-self: start;
+    transition: ease-in-out 300ms;
+}
+
+.dashboardTitle{
+    display: grid;
+    margin-top: 2vh;
+    grid-template-columns: 1fr 1.5fr;
+    row-gap: 2vh;
+    place-items: center;
+}
+
+.dashboardText{
+    justify-self: start;
+    font-size: 1.3rem;
+}
+
+.dashboardIcon{
+    width: 3vw;
+    filter: invert(100%) sepia(49%) saturate(3151%) hue-rotate(178deg) brightness(111%) contrast(101%);
+}
+
+.navItem:hover{
+    font-size: 1rem;
+    color: #ffffff;
+    transition: 300ms;
+    cursor: pointer;
+}
