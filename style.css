@@ -88,8 +88,10 @@ body {
 
 .header{
     display: flex;
+    padding-bottom: 2vh;
     flex-direction: column;
-    margin-inline: 2.5vw;
+    padding-inline: 3vw;
+    box-shadow: 0px 5px 2px -2px rgb(200, 200, 200);
 }
 
 .upperHeader{
@@ -113,6 +115,13 @@ body {
 .headerIcon{
     width: 1.8vw;
     margin-right: 1vw;
+    transition: 300ms ease-in-out;
+}
+
+.headerIcon:hover{
+    cursor: pointer;
+    width: 2vw;
+    transition: 300ms ease-in-out;
 }
 
 .searchBar{
@@ -126,4 +135,49 @@ body {
     width: 30vw;
     height: 3vh;
     border-radius: 16px;
+}
+
+.mainHeader {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2vh;
+}
+
+.profilePicture {
+    height: 8vw;
+    margin-right: 1vw;
+    border-radius: 50%;
+}
+
+.profileContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1vw;
+}
+
+.profileBtns{
+    display: flex;
+    gap: 1vw;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: rgb(10, 143, 205);
+    border: none;
+    color: aliceblue;
+    padding-inline: 2vw;
+    padding-block: 1vh;
+    border-radius: 16px;
+    font-weight: 500;
+    transition: ease-in-out 300ms;
+}
+
+button:hover {
+    cursor: pointer;
+    padding-inline: 2.2vw;
+    padding-block: 1.2vh;
+    background-color: rgb(0, 119, 179);
+    transition: ease-in-out 300ms;
 }
