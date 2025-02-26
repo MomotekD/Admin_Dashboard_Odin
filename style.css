@@ -215,7 +215,7 @@ button:hover {
     flex-direction: column;
     justify-content: space-between;
     font-size: 0.8rem;
-    height: 20vh;
+    height: 22.8vh;
     background-color: #FFFFFF;
     border-left: 8px solid #ffb452;
     box-shadow: 3px 3px 2px #bdc2c9;
@@ -254,6 +254,7 @@ button:hover {
 
 .announcements {
     padding-top: 2vh;
+    margin-right: 1vw;
 }
 
 .announcementsContainer{
@@ -262,6 +263,7 @@ button:hover {
     font-size: 0.8rem;
     padding: 10% 10%;
     border-radius: 10px;
+    box-shadow: 3px 3px 2px #bdc2c9;
 }
 
 .paragraphAnnouncements {
@@ -287,4 +289,32 @@ h4 {
     color: #636363;
     font-size: 0.8rem;
     font-weight: 400;
+}
+
+.trending {
+    padding-top: 2vh;
+    margin-right: 1vw;
+}
+
+.trendingContainer{
+    background-color: #FFFFFF;
+    margin-top: 1.5vh;
+    font-size: 0.8rem;
+    padding: 10% 10%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    box-shadow: 3px 3px 2px #bdc2c9;
+}
+
+.profileTrending{
+    display: flex;
+    margin-top: 1vh;
+    align-content: center;
+    font-size: 0.9rem;
+}
+
+.trendingProfileCaption{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
